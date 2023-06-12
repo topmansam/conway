@@ -1,8 +1,8 @@
 # Conway's Game of Life
  
-This repository contains an implementation of Conway's Game of Life, a cellular automaton experiment, as part of COSC 1P03 Assignment 1. The objective of this assignment is to practice handling 2D arrays.
+This project is a simulation of Conway's Game of Life, a well-known cellular automaton experiment. The program allows the user to input an initial grid state from a text file and simulate the game by applying the rules of Conway's Game of Life to the grid for a specified number of iterations.
 
-Background
+## Background
 Conway's Game of Life is played on an mxn grid of cells, where each cell is either on or off. The state of the grid evolves based on four rules:
 
 1. A dead cell (off/0) will activate if it has precisely three live neighbors.
