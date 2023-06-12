@@ -25,3 +25,37 @@ To run the program and simulate the Game of Life, follow these steps:
 7. java LifeGame
 8. When prompted, enter the name of the file containing the initial grid state.
 9. Follow the on-screen instructions to specify the number of iterations to process.
+
+## Sample Execution:
+
+Enter game filename: small.txt
+Dimensions: 3 rows x 4 columns
+Initial Game State:
+0 0 1 1
+0 1 1 1
+0 0 1 0
+# of iterations (<1 to stop): 1
+Final Game State:
+1 0 0 0
+1 1 0 0
+1 0 0 0
+# of iterations (<1 to stop): 1
+Final Game State:
+1 0 0 1
+1 1 0 1
+1 0 0 1
+# of iterations (<1 to stop): 1
+Final Game State:
+0 0 0 0
+0 1 0 0
+0 0 0 0
+# of iterations (<1 to stop): 1
+Final Game State:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+# of iterations (<1 to stop): 0
+Final Game State:
+0 0 0 0
+0 0 0 0
+0 0 0 0
